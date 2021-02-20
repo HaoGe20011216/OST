@@ -1,0 +1,36 @@
+2021-02-09 16:23:24 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:24 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '新增视频会议', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '77d5f13aad94119760f369f48d6f0470', 'Token': 'string', 'Type': 4}, 'Code': 'A1016'}}
+2021-02-09 16:23:24 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "1453",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "77d5f13aad94119760f369f48d6f0470", "Token": "string", "Type": 4, "TimeStamp": 1612859004}, "Code": "A1016", "Data": "eyJNZWV0TmFtZSI6ICJNZWV0SG9zdF8xNjEyODU5MDA0IiwgIk1lZXRHdWlkIjogImNhMDk0NTcyMTE4YjQwMGM4YjQ3MzJiMGJhNDVmZDE0IiwgIk1lZXROdW0iOiA1ODAwMDAwMiwgIk1lZXRCZWdpblRpbWUiOiAxNjEyODU5MDA0LCAiTWVldEVuZFRpbWUiOiAwLCAiTWVldE1heFBlb3BsZSI6IDY0LCAiTWVldExheW91dFR5cGUiOiAxLCAiTWVldFZvbCI6IDg1LCAiTWVldFJhdGlvbiI6IDMsICJNZWV0UHdkIjogIiIsICJNZWV0U3RhdGUiOiAxLCAiTWVldENvbXBlcmVHdWlkIjogIjk2OWNmYzA4ZDA4YTRiNjRhNjkzYjQ4OTJmYWMwYzVmIiwgIk1lZXRVcmwiOiAiaHR0cHM6Ly8xMjAuNzYuMTMzLjI0MTozMDQ0My8/TWVldEd1aWQ9Y2EwOTQ1NzIxMThiNDAwYzhiNDczMmIwYmE0NWZkMTQiLCAiTWVldGVycyI6IFt7IlVzcklkIjogIjk2OWNmYzA4ZDA4YTRiNjRhNjkzYjQ4OTJmYWMwYzVmIiwgIk1lZXRHdWlkIjogImNhMDk0NTcyMTE4YjQwMGM4YjQ3MzJiMGJhNDVmZDE0IiwgIk1lZXRTdGF0ZSI6IDR9LCB7IlVzcklkIjogImQ0MmM4M2ViZjE4NDQ5MDNiODcxNzQyNjFlYzFiM2FiIiwgIk1lZXRHdWlkIjogImNhMDk0NTcyMTE4YjQwMGM4YjQ3MzJiMGJhNDVmZDE0IiwgIk1lZXRTdGF0ZSI6IDR9LCB7IlVzcklkIjogIjcyMTI0NTU3MTkyMzRiMTNiZjg1OTdmYjdjMjQ3OGFlIiwgIk1lZXRHdWlkIjogImNhMDk0NTcyMTE4YjQwMGM4YjQ3MzJiMGJhNDVmZDE0IiwgIk1lZXRTdGF0ZSI6IDR9LCB7IlVzcklkIjogIjYyMWEzYWE1NWMwYzQ0NzU4ZWQzZDQzNzNkYzliYzAyIiwgIk1lZXRHdWlkIjogImNhMDk0NTcyMTE4YjQwMGM4YjQ3MzJiMGJhNDVmZDE0IiwgIk1lZXRTdGF0ZSI6IDR9LCB7IlVzcklkIjogIjI4MjM1YzU5NTA4ZjQ4Y2JhMDc3ODJjNjhkMWQ0Zjk2IiwgIk1lZXRHdWlkIjogImNhMDk0NTcyMTE4YjQwMGM4YjQ3MzJiMGJhNDVmZDE0IiwgIk1lZXRTdGF0ZSI6IDR9XSwgIk1lZXRUeXBlIjogMn0="}
+
+2021-02-09 16:23:24 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:24 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:22 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMTYifQ==
+
+2021-02-09 16:23:24 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMTYifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMTYifQ==
+2021-02-09 16:23:24 | INFO      | test_0_Main_Function_Test_Suite:test_Add_Video_Meet:80 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:22 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMTYifQ=='}

@@ -1,0 +1,72 @@
+2021-02-09 16:23:12 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:12 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '新增设备分区', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '664abb1e0cb8af583a24a1e6a72577a3', 'Token': 'string', 'Type': 1}, 'Code': 'A1002'}}
+2021-02-09 16:23:13 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "265",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "664abb1e0cb8af583a24a1e6a72577a3", "Token": "string", "Type": 1, "TimeStamp": 1612858992}, "Code": "A1002", "Data": "eyJBcmVhTmFtZSI6ICJhZGRfYXJlYV8xIiwgIkFyZWFHdWlkIjogImMxMmQzOTQwOTU1NzRkYmViZGI3OGE0NTgwYWEwYmZiIiwgIkFyZWFUeXBlIjogMX0="}
+
+2021-02-09 16:23:13 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:13 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:11 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ==
+
+2021-02-09 16:23:13 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ==
+2021-02-09 16:23:13 | INFO      | test_0_Main_Function_Test_Suite:test_Add_Device_Area:27 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:11 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ=='}
+2021-02-09 16:23:13 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:13 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '新增设备分区', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '664abb1e0cb8af583a24a1e6a72577a3', 'Token': 'string', 'Type': 1}, 'Code': 'A1002'}}
+2021-02-09 16:23:13 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "265",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "664abb1e0cb8af583a24a1e6a72577a3", "Token": "string", "Type": 1, "TimeStamp": 1612858992}, "Code": "A1002", "Data": "eyJBcmVhTmFtZSI6ICJhZGRfYXJlYV8yIiwgIkFyZWFHdWlkIjogImE1NzQ3ZTFkMDJjNDRmYmM5ODJmMGE4NWVmNzg2YzZjIiwgIkFyZWFUeXBlIjogMn0="}
+
+2021-02-09 16:23:13 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:13 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:11 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ==
+
+2021-02-09 16:23:13 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ==
+2021-02-09 16:23:13 | INFO      | test_0_Main_Function_Test_Suite:test_Add_Device_Area:27 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:11 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiQTEwMDIifQ=='}

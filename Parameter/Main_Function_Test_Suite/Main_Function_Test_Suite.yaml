@@ -1,0 +1,181 @@
+description: 主要功能测试套件集合
+parameters:
+  - url: /aio2/gateway/api/v1/gateway/Login
+    desc: "登录"
+    method: post
+    headers: {}
+    params: {}
+    data: {}
+    json: {}
+
+  - url: /aio2/gateway/api/v1/gateway/Business
+    desc: "新增设备分区"
+    method: post
+    headers: {}
+    params: {}
+    data: {}
+    json: {
+        "Verify": {
+          "ServiceID": "664abb1e0cb8af583a24a1e6a72577a3",
+          "Token": "string",
+          "Type": 1
+        },
+        "Code": "A1002"
+    }
+
+  - url: /aio2/gateway/api/v1/gateway/Business
+    desc: "新增设备"
+    method: post
+    headers: {}
+    params: {}
+    data: {}
+    json: {
+      "Verify": {
+        "ServiceID": "664abb1e0cb8af583a24a1e6a72577a3",
+        "Token": "string",
+        "Type": 1
+      },
+      "Code": "A1004"
+    }
+
+  - url: /aio2/gateway/api/v1/gateway/Business
+    desc: "删除设备"
+    method: post
+    headers: {}
+    params: {}
+    data: {}
+    json: {
+      "Verify": {
+        "ServiceID": "383d8698ccc6bc3390a13c925b5a180f",
+        "Token": "token",
+        "Type": 4
+      },
+      "Code": "D1004",
+      "Param": [
+      {
+        "Key": "UsrGuid",
+        "Type": 2
+      }
+      ],
+      "Data": ""
+    }
+
+  -   url: /aio2/gateway/api/v1/gateway/Business
+      desc: "删除设备分区"
+      method: post
+      headers: {}
+      params: {}
+      data: {}
+      json: {
+        "Verify": {
+          "ServiceID": "383d8698ccc6bc3390a13c925b5a180f",
+          "Token": "token",
+#          "TimeStamp": Tools.Time(),
+          "Type": 4
+        },
+        "Code": "D1002",
+        "Param": [
+        {
+          "Key": "AreaGuid",
+#          "Value": "9acffee9f16741e7b22810d8fde16392",
+          "Type": 2
+        }
+        ],
+        "Data": ""
+      }
+
+  -   url: /aio2/gateway/api/v1/gateway/Business
+      desc: "新增定时任务"
+      method: post
+      headers: {}
+      params: {}
+      data: {}
+      json: {
+        "Verify": {
+          "ServiceID": "77d5f13aad94119760f369f48d6f0470",
+          "Token": "string",
+          "Type": 4
+        },
+        "Code": "A1012"
+      }
+
+  -   url: /aio2/gateway/api/v1/gateway/Business
+      desc: "删除定时任务"
+      method: post
+      headers: {}
+      params: {}
+      data: {}
+      json: {
+        "Verify": {
+          "ServiceID": "383d8698ccc6bc3390a13c925b5a180f",
+          "Token": "token",
+          "Type": 4
+        },
+        "Code": "D1012",
+        "Param": [
+        {
+          "Key": "TskGuid",
+          "Type": 2
+        }
+        ],
+      "Data": ""
+      }
+
+  -   url: /aio2/gateway/api/v1/gateway/Business
+      desc: "新增视频会议"
+      method: post
+      headers: {}
+      params: {}
+      data: {}
+      json: {
+        "Verify": {
+          "ServiceID": "77d5f13aad94119760f369f48d6f0470",
+          "Token": "string",
+          "Type": 4
+        },
+        "Code": "A1016"
+      }
+
+  -   url: /aio2/gateway/api/v1/gateway/Business
+      desc: "删除视频会议"
+      method: post
+      headers: {}
+      params: {}
+      data: {}
+      json: {
+        "Verify": {
+          "ServiceID": "77d5f13aad94119760f369f48d6f0470",
+          "Token": "string",
+          "Type": 4
+        },
+        "Code": "D1015",
+        "Param": [
+        {
+          "Key": "MeetGuid",
+          "Type": 2
+        }
+        ],
+        "Data": ""
+      }
+
+  -   url: /aio2/gateway/api/v1/gateway/Business
+      desc: "停止定时任务"
+      method: post
+      headers: {}
+      params: {}
+      data: {}
+      json: {
+        "Verify": {
+          "ServiceID": "383d8698ccc6bc3390a13c925b5a180f",
+          "Token": "token",
+          "Type": 4
+        },
+        "Code": "M1006",
+        "Param": [
+        {
+          "Key": "TskGuid",
+          "Type": 2
+        }
+        ],
+        "Data": ""
+      }

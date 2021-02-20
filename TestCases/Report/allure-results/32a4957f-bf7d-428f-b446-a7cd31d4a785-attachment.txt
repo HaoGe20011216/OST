@@ -1,0 +1,180 @@
+2021-02-09 16:23:22 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:22 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '删除定时任务', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '383d8698ccc6bc3390a13c925b5a180f', 'Token': 'token', 'Type': 4}, 'Code': 'D1012', 'Param': [{'Key': 'TskGuid', 'Type': 2}], 'Data': ''}}
+2021-02-09 16:23:22 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "231",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "383d8698ccc6bc3390a13c925b5a180f", "Token": "token", "Type": 4, "TimeStamp": 1612859002}, "Code": "D1012", "Param": [{"Key": "TskGuid", "Type": 2, "Value": "edca62f460bf43efadffc32cc2a1a9d8"}], "Data": ""}
+
+2021-02-09 16:23:22 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:22 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:21 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+
+2021-02-09 16:23:22 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+2021-02-09 16:23:22 | INFO      | test_0_Main_Function_Test_Suite:test_Delete_Timed_Task:72 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:21 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ=='}
+2021-02-09 16:23:22 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:22 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '删除定时任务', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '383d8698ccc6bc3390a13c925b5a180f', 'Token': 'token', 'Type': 4}, 'Code': 'D1012', 'Param': [{'Key': 'TskGuid', 'Type': 2}], 'Data': ''}}
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "231",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "383d8698ccc6bc3390a13c925b5a180f", "Token": "token", "Type": 4, "TimeStamp": 1612859002}, "Code": "D1012", "Param": [{"Key": "TskGuid", "Type": 2, "Value": "507393b6f29842ec9b8e73364aa438a5"}], "Data": ""}
+
+2021-02-09 16:23:23 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:21 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+
+2021-02-09 16:23:23 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+2021-02-09 16:23:23 | INFO      | test_0_Main_Function_Test_Suite:test_Delete_Timed_Task:72 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:21 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ=='}
+2021-02-09 16:23:23 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:23 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '删除定时任务', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '383d8698ccc6bc3390a13c925b5a180f', 'Token': 'token', 'Type': 4}, 'Code': 'D1012', 'Param': [{'Key': 'TskGuid', 'Type': 2}], 'Data': ''}}
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "231",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "383d8698ccc6bc3390a13c925b5a180f", "Token": "token", "Type": 4, "TimeStamp": 1612859002}, "Code": "D1012", "Param": [{"Key": "TskGuid", "Type": 2, "Value": "51e7c16af16b4a23ba22ad3169c3818d"}], "Data": ""}
+
+2021-02-09 16:23:23 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:21 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+
+2021-02-09 16:23:23 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+2021-02-09 16:23:23 | INFO      | test_0_Main_Function_Test_Suite:test_Delete_Timed_Task:72 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:21 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ=='}
+2021-02-09 16:23:23 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:23 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '删除定时任务', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '383d8698ccc6bc3390a13c925b5a180f', 'Token': 'token', 'Type': 4}, 'Code': 'D1012', 'Param': [{'Key': 'TskGuid', 'Type': 2}], 'Data': ''}}
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "231",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "383d8698ccc6bc3390a13c925b5a180f", "Token": "token", "Type": 4, "TimeStamp": 1612859002}, "Code": "D1012", "Param": [{"Key": "TskGuid", "Type": 2, "Value": "301e87e5b0634c5c8fdeda8bb6e65a97"}], "Data": ""}
+
+2021-02-09 16:23:23 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:21 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+
+2021-02-09 16:23:23 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+2021-02-09 16:23:23 | INFO      | test_0_Main_Function_Test_Suite:test_Delete_Timed_Task:72 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:21 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ=='}
+2021-02-09 16:23:23 | INFO      | autoParamInjection:__init__:30 - Main_Function_Test_Suite Yaml object injection in progress
+2021-02-09 16:23:23 | INFO      | ostHttp:ost_http_runner:31 - Corresponding to yaml interface: {'url': '/aio2/gateway/api/v1/gateway/Business', 'desc': '删除定时任务', 'method': 'post', 'headers': {}, 'params': {}, 'data': {}, 'json': {'Verify': {'ServiceID': '383d8698ccc6bc3390a13c925b5a180f', 'Token': 'token', 'Type': 4}, 'Code': 'D1012', 'Param': [{'Key': 'TskGuid', 'Type': 2}], 'Data': ''}}
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== request details ==================
+method   : POST
+url      : https://8.134.57.41:8090/aio2/gateway/api/v1/gateway/Business
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "231",
+    "Content-Type": "application/json"
+}
+cookies  : {}
+body     : {"Verify": {"ServiceID": "383d8698ccc6bc3390a13c925b5a180f", "Token": "token", "Type": 4, "TimeStamp": 1612859002}, "Code": "D1012", "Param": [{"Key": "TskGuid", "Type": 2, "Value": "18c8b9b755804fccb0296828684672ee"}], "Data": ""}
+
+2021-02-09 16:23:23 | WARNING      | baseRequest:send_request:98 - Failed to parse data with JSON, switch to text parsing！
+2021-02-09 16:23:23 | INFO      | consolelog:log_output:30 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.19.6",
+    "Date": "Tue, 09 Feb 2021 08:23:22 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "40",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+
+2021-02-09 16:23:23 | INFO      | assertChecker:assert_eq:23 - Assert EQ<equal>,Expected Value：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==,Response Data：eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ==
+2021-02-09 16:23:23 | INFO      | test_0_Main_Function_Test_Suite:test_Delete_Timed_Task:72 - {'status_code': 200, 'headers': {'Server': 'nginx/1.19.6', 'Date': 'Tue, 09 Feb 2021 08:23:22 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '40', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}, 'cookies': {}, 'encoding': 'UTF-8', 'content_type': 'application/json; charset=UTF-8', 'body': 'eyJDb2RlIjoxLCJSZXFDb2RlIjoiRDEwMTIifQ=='}

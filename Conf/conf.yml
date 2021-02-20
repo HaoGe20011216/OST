@@ -1,0 +1,4 @@
+server_info:
+  base_url: 8.134.57.41:8090
+  protocol: https
+  verify: False
